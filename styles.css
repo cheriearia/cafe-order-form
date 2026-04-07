@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    padding: 40px;
+    background: lightcyan;
+    color: black;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    margin-left: 60px;
+}
