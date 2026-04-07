@@ -1,1 +1,3 @@
 # cafe-order-form
+
+A webpage for a café where users can place their orders ahead of time with a confirmation page letting the user know that the order was received and allows the user to verify accuracy, and a table to track inputs with a graph that shows us the profits for each month so we can see which months were the most profitable throughout the year. 
