@@ -114,20 +114,72 @@ input {
 }
 
 .navbuttons {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                margin-bottom: 50px;
-            }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 .navbuttons a {
-                padding: 20px;
-                border: 1px solid black;
-                background-color: lightgray;
-                text-decoration: none;
-                color: black;
-            }
+    padding: 20px;
+    border: 1px solid black;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+}
 
 .navbuttons a:hover {
     background-color: lightgoldenrodyellow;
 }
+
+.barchart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 280px;
+    padding: 20px 10px 40px;
+    position: relative;
+    margin: 20px;
+}
+
+.bar {
+    width: 50px;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+}
+        
+.barlabel {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
+
+.barvalue {
+    margin-bottom: 5px;
+}
+        
+.y-axis {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    color: black;
+    text-align: right;
+    padding-right: 8px;
+}
+
