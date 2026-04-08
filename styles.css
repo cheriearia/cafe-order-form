@@ -58,3 +58,25 @@
 .navbar ul li a:hover, .footer ul li a:hover {
     background-color: lightsteelblue;
 }
+
+.content {
+    background-color: lightblue;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.forms {
+    display: flex;
+    gap: 20px;
+}
+
+.forms form {
+    flex: 1;
+}
+
+#contactinfo input {
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+}
