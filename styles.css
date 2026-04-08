@@ -14,7 +14,21 @@
     margin-left: 60px;
 }
 
-.navbar ul {
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: lightcyan;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.footer ul li p {
+    margin-right: 20px;
+}
+
+.navbar ul, .footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -25,15 +39,15 @@
     margin-right: 250px;
 }
 
-.navbar ul li {
+.navbar ul li, .footer ul li {
     border-right: 1px solid lightsteelblue;
 }
 
-.navbar ul li:last-child {
+.navbar ul li:last-child, .footer ul li:last-child {
     border-right: none;
 }
 
-.navbar ul li a {
+.navbar ul li a, .footer ul li a {
     display: block;
     color: black;
     padding: 14px 36px;
@@ -41,6 +55,6 @@
     font-size: 18px;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover, .footer ul li a:hover {
     background-color: lightsteelblue;
 }
