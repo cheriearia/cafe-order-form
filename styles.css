@@ -98,3 +98,36 @@
 input {
     margin: 10px;
 }
+
+.orderdetails {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.orderdetails ul {
+    column-count: 2;
+}
+
+.orderdetails ul li {
+    padding: 10px;
+}
+
+.navbuttons {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 50px;
+            }
+.navbuttons a {
+                padding: 20px;
+                border: 1px solid black;
+                background-color: lightgray;
+                text-decoration: none;
+                color: black;
+            }
+
+.navbuttons a:hover {
+    background-color: lightgoldenrodyellow;
+}
