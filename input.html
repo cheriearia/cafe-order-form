@@ -28,31 +28,31 @@
             <div class="forms">
                 <div id="contactinfo">
                     <h2>Contact Information</h2>
-                    <input type="text" id="fname" name="fname" placeholder="First Name*"><br>
-                    <input type="text" id="lname" name="lname" placeholder="Last Name*"><br>
-                    <input type="email" id="uemail" name="uemail" placeholder="Email*"><br>
-                    <input type="tel" id="phonenum" name="phonenum" placeholder="Phone Number*">
+                    <input type="text" id="fname" name="fname" placeholder="First Name*" required><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name*" required><br>
+                    <input type="email" id="uemail" name="uemail" placeholder="Email*" required><br>
+                    <input type="tel" id="phonenum" name="phonenum" placeholder="Phone Number*" required>
                 
                     <h2>Schedule Order</h2>
                     <label for="orderdate">Date: </label>
-                    <input type="date" id="orderdate" name="orderdate"><br>
+                    <input type="date" id="orderdate" name="orderdate" required><br>
                     <label for="ordertime">Time: </label>
-                    <input type="time" id="ordertime" name="ordertime">
+                    <input type="time" id="ordertime" name="ordertime" required>
                 </div>
 
                 <div id="payment">
                     <h2>Choose Payment Method</h2>
-                    <input type="radio" id="applepay" name="paymethod" value="ApplePay">
+                    <input type="radio" id="applepay" name="paymethod" value="ApplePay" required>
                     <label for="applepay">Apple Pay</label><br>
-                    <input type="radio" id="card" name="card" value="Card">
+                    <input type="radio" id="card" name="paymethod" value="Card">
                     <label for="card">Debit or Credit Card</label><br>
-                    <input type="radio" id="cash" name="cash" value="Cash">
+                    <input type="radio" id="cash" name="paymethod" value="Cash">
                     <label for="cash">Cash</label><br>
-                    <input type="radio" id="paypal" name="paypal" value="PayPal">
+                    <input type="radio" id="paypal" name="paymethod" value="PayPal">
                     <label for="paypal">PayPal</label><br>
-                    <input type="radio" id="venmo" name="venmo" value="Venmo">
+                    <input type="radio" id="venmo" name="paymethod" value="Venmo">
                     <label for="venmo">Venmo</label><br>
-                    <input type="radio" id="cashapp" name="cashapp" value="Cashapp">
+                    <input type="radio" id="cashapp" name="paymethod" value="Cashapp">
                     <label for="cashapp">Cashapp</label>
 
                     <h2>Rewards & Promos</h2>
